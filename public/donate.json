@@ -1,0 +1,148 @@
+[
+          {
+            "id": 1,
+            "title": "Healthy Start Kit",
+            "category": "Health",
+            "category_bg_color": "bg-blue-500",
+            "card_bg_color": "bg-blue-400",
+            "text_color": "text-blue-900",
+            "button_bg_color": "bg-blue-600",
+            "description": "Provide essential health supplies to those in need and make a positive impact on their well-being.",
+            "price": 20,
+            "picture_url": "https://i.ibb.co/5KPXg0m/Health.png"
+          },
+          {
+            "id": 2,
+            "title": "Educational Scholarships",
+            "category": "Education",
+            "category_bg_color": "bg-orange-500",
+            "card_bg_color": "bg-orange-100",
+            "text_color": "text-orange-900",
+            "button_bg_color": "bg-orange-600",
+            "description": "Support underprivileged students by funding scholarships for their education, giving them a brighter future.",
+            "price": 50,
+            "picture_url": "https://i.ibb.co/NsYmjbt/Education.png"
+          },
+          {
+            "id": 3,
+            "title": "Nutritious Meal Program",
+            "category": "Food",
+            "category_bg_color": "bg-green-500",
+            "card_bg_color": "bg-green-100",
+            "text_color": "text-green-900",
+            "button_bg_color": "bg-green-600",
+            "description": "Help combat hunger by providing nutritious meals to families facing food insecurity in our community.",
+            "price": 30,
+            "picture_url": "https://i.ibb.co/9w0KqBJ/Food.png"
+          },
+          {
+            "id": 4,
+            "title": "Warm Clothing Drive",
+            "category": "Clothing",
+            "category_bg_color": "bg-yellow-500",
+            "card_bg_color": "bg-yellow-100",
+            "text_color": "text-yellow-900",
+            "button_bg_color": "bg-yellow-600",
+            "description": "Donate warm clothing to keep vulnerable individuals warm during the cold winter months.",
+            "price": 25,
+            "picture_url": "https://i.ibb.co/jzhdbxB/Clothing.png"
+          },
+          {
+            "id": 5,
+            "title": "Fresh Food for Families",
+            "category": "Food",
+            "category_bg_color": "bg-green-500",
+            "card_bg_color": "bg-green-100",
+            "text_color": "text-green-900",
+            "button_bg_color": "bg-green-600",
+            "description": "Support local food banks to provide fresh and nutritious food to struggling families.",
+            "price": 35,
+            "picture_url": "https://i.ibb.co/9w0KqBJ/Food.png"
+          },
+          {
+            "id": 6,
+            "title": "Healthy Habits Workshops",
+            "category": "Health",
+            "category_bg_color": "bg-blue-500",
+            "card_bg_color": "bg-blue-100",
+            "text_color": "text-blue-900",
+            "button_bg_color": "bg-blue-600",
+            "description": "Support health education programs that empower individuals to make healthier lifestyle choices.",
+            "price": 15,
+            "picture_url": "https://i.ibb.co/5KPXg0m/Health.png"
+          },
+          {
+            "id": 7,
+            "title": "Winter Wardrobe Drive",
+            "category": "Clothing",
+            "category_bg_color": "bg-yellow-500",
+            "card_bg_color": "bg-yellow-100",
+            "text_color": "text-yellow-900",
+            "button_bg_color": "bg-yellow-600",
+            "description": "Collect winter clothing items like coats, gloves, and scarves to keep people warm during winter.",
+            "price": 30,
+            "picture_url": "https://i.ibb.co/jzhdbxB/Clothing.png"
+          },
+          {
+            "id": 8,
+            "title": "Digital Learning Resources",
+            "category": "Education",
+            "category_bg_color": "bg-orange-500",
+            "card_bg_color": "bg-orange-100",
+            "text_color": "text-orange-900",
+            "button_bg_color": "bg-orange-600",
+            "description": "Provide access to digital learning materials for students who lack resources for online education.",
+            "price": 40,
+            "picture_url": "https://i.ibb.co/NsYmjbt/Education.png"
+          },
+                    {
+                      "id": 9,
+                      "title": "Emergency Food Relief",
+                      "category": "Food",
+                      "category_bg_color": "bg-green-500",
+                      "card_bg_color": "bg-green-100",
+                      "text_color": "text-green-900",
+                      "button_bg_color": "bg-green-600",
+                      "description": "Provide immediate food assistance to individuals and families facing food crises.",
+                      "price": 25,
+                      "picture_url": "https://i.ibb.co/9w0KqBJ/Food.png"
+                    },
+                    {
+                      "id": 10,
+                      "title": "Winter Warmth Drive",
+                      "category": "Clothing",
+                      "category_bg_color": "bg-yellow-500",
+                      "card_bg_color": "bg-yellow-100",
+                      "text_color": "text-yellow-900",
+                      "button_bg_color": "bg-yellow-600",
+                      "description": "Collect warm clothing items and blankets to help people stay warm during winter.",
+                      "price": 30,
+                      "picture_url": "https://i.ibb.co/jzhdbxB/Clothing.png"
+                    },
+                    {
+                      "id": 11,
+                      "title": "STEM Education Grants",
+                      "category": "Education",
+                      "category_bg_color": "bg-orange-500",
+                      "card_bg_color": "bg-orange-100",
+                      "text_color": "text-orange-900",
+                      "button_bg_color": "bg-orange-600",
+                      "description": "Fund grants for STEM (Science, Technology, Engineering, and Mathematics) education programs in schools.",
+                      "price": 60,
+                      "picture_url": "https://i.ibb.co/NsYmjbt/Education.png"
+                    },
+                    {
+                      "id": 12,
+                      "title": "Healthy Meals Initiative",
+                      "category": "Health",
+                      "category_bg_color": "bg-blue-500",
+                      "card_bg_color": "bg-blue-100",
+                      "text_color": "text-blue-900",
+                      "button_bg_color": "bg-blue-600",
+                      "description": "Support programs that provide healthy, balanced meals to individuals battling illness.",
+                      "price": 20,
+                      "picture_url": "https://i.ibb.co/5KPXg0m/Health.png"
+                    }
+                  ]
+                  
+        
