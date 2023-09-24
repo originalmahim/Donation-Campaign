@@ -11,7 +11,7 @@ const Donate = ({ donate }) => {
         <img src={picture_url} alt={title} />
       </div>
       <div className={`text-color py-4 pl-4`}>
-        <button className={category_bg_color} >{category}</button>
+        <button className="bg-blue-300 p-1 rounded-md text-white" >{category}</button>
         <h1>{title}</h1>
       </div>
     </div>
