@@ -9,6 +9,7 @@ import Header from './Components/Header/Header';
 import Home from './Components/Home/Home';
 import Donationdetails from './Components/Donationdetails/Donationdetails';
 import Donationlish from './Components/DonationList/Donationlish';
+import Statistics from './Components/Statistics/Statistics';
 const router = createBrowserRouter([
   {
     path: "/",
@@ -27,6 +28,10 @@ const router = createBrowserRouter([
         path: "/donations",
         element: <Donationlish></Donationlish>,
         loader: () => fetch('../public/donate.json')
+      },
+      {
+        path: "/statistics",
+        element: <Statistics></Statistics>
       }
     ]
   },
