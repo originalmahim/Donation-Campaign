@@ -14,7 +14,7 @@ const Donationdetails = () => {
    <div className="absolute inset-x-0 bottom-0 bg-black opacity-80 h-24"></div>     
 </div>                 
   <div style={{ position: 'absolute', bottom: '25px', left: '25px' }}>
-    <button className="btn btn-primary">Donate ${donate.price}</button>
+    <button className="btn border-none text-white" style={{background: donate.text_color }}>Donate ${donate.price}</button>
   
   </div>
 </div>
