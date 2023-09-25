@@ -17,7 +17,7 @@ const Home = () => {
           <div>
           <Banner></Banner>
           <div className="max-w-7xl mx-auto px-2 my-14">
-          <div className="grid grid-cols-4 gap-4">
+          <div className="grid lg:grid-cols-4 md:grid-cols-2 grid-cols-1 gap-4">
           {
            donate.map(donate => <Donate key={donate.id} donate = {donate}></Donate>)
           }
