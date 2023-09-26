@@ -3,6 +3,7 @@ import { useLoaderData, useParams } from "react-router-dom";
 import Swal from 'sweetalert2';
 import PropTypes from 'prop-types';
 import { saveDonations } from "../Localstorage/Localstorage";
+import { Helmet } from 'react-helmet';
 
 const DonationContext = createContext();
 
@@ -45,6 +46,9 @@ const DonationDetails = () => {
 
   return (
     <div className="max-w-7xl mx-auto my-24">
+      <Helmet>
+        <title>Donation Details </title>
+      </Helmet>
           <div >
           <div className="max-w-7xl mx-auto lg:h-[70vh] md:h-[30vh] h-[30vh] border-none rounded-md mb-5 px-6 bg-no-repeat bg-right" style={{ backgroundImage: `url(${donate.picture_url})`, backgroundSize: 'cover', position: 'relative' }}>
           <div className="w-full" >

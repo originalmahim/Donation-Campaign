@@ -1,6 +1,7 @@
 import { useEffect, useState } from "react";
 import Donatedlist from "./Donatedlist";
 import { getDonation } from "../Localstorage/Localstorage";
+import { Helmet } from "react-helmet";
 
 
 const Donationlish = () => {
@@ -31,6 +32,9 @@ const Donationlish = () => {
 
           return (
           <div>
+            <Helmet>
+              <title>Donation Campaign | My Donation</title>
+            </Helmet>
             <div className={`text-center ${donation.length == 0 ? '' : 'hidden'}`}>
             <h1 className="text-3xl font-bold">No Data Faund.</h1>
             </div>

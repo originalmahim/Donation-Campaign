@@ -8,11 +8,13 @@ import Donationdetails from './Components/Donationdetails/Donationdetails';
 import Donationlish from './Components/DonationList/Donationlish';
 import Statistics from './Components/Statistics/Statistics';
 import { DonationProvider } from './Components/Donationdetails/Donationdetails'; // Import the DonationProvider
+import Errorinfos from './Components/ErrorInfos/Errorinfos';
 
 const router = createBrowserRouter([
   {
     path: '/',
     element: <Header></Header>,
+    errorElement: <Errorinfos></Errorinfos>,
     children: [
       {
         path: '/',
@@ -36,6 +38,7 @@ const router = createBrowserRouter([
 ]);
 
 ReactDOM.createRoot(document.getElementById('root')).render(
+  
   <React.StrictMode>
     <DonationProvider> 
       <RouterProvider router={router}></RouterProvider>

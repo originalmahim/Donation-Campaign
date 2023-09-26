@@ -1,6 +1,7 @@
 
 import { PieChart, Pie, Cell, ResponsiveContainer, Legend } from 'recharts';
 import { useDonation } from '../Donationdetails/Donationdetails'; 
+import { Helmet } from 'react-helmet';
 
 const COLORS = ['#0088FE', '#FFBB28'];
 
@@ -27,6 +28,9 @@ const renderCustomizedLabel = ({ cx, cy, midAngle, innerRadius, outerRadius, per
 
       return (
       <div>
+        <Helmet>
+          <title>Donation Campaign | Statistics</title>
+        </Helmet>
       <ResponsiveContainer width="100%" height={400}>
       <PieChart>
       <Pie
