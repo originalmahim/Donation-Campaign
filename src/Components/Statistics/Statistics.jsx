@@ -18,10 +18,10 @@ const renderCustomizedLabel = ({ cx, cy, midAngle, innerRadius, outerRadius, per
 };
 
       const Statistics = () => {
-      const { donation } = useDonation(); 
+      const { donation ,totaldonation } = useDonation(); 
 
       const data = [
-       { name: 'Total Donation', value: 3250  }, 
+       { name: 'Total Donation', value: totaldonation  }, 
        { name: 'Your Donation', value: donation }
          ];
 

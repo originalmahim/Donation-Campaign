@@ -25,6 +25,9 @@ const Donationlish = () => {
 
           return (
           <div>
+            <div className={`text-center ${donation.length == 0 ? '' : 'hidden'}`}>
+            <h1 className="text-3xl font-bold">No Data Faund.</h1>
+            </div>
           <div className="max-w-7xl mx-auto p-2">
           <div className="px-6 lg:px-0 grid lg:grid-cols-2 md:grid-cols-2 grid-cols-1 gap-4">
           {donation.slice(0, show).map((donations) => (

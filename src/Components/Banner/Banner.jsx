@@ -11,15 +11,13 @@ const Banner = () => {
               </h1>
               <div className=" lg:relative md:relative lg:mx-44 md:mx-40 mt-8">
               <input type="text"  placeholder="Search here....." className="input input-bordered lg:w-full md:w-full pr-16" /> 
-        <button className="btn btn-primary lg:absolute md:absolute lg:top-0 lg:right-0 lg:rounded-l-none md:rounded-l-none">Search</button>
-      </div>
-            </div>
+              <button className="btn btn-primary lg:absolute md:absolute lg:top-0 lg:right-0 lg:rounded-l-none md:rounded-l-none">Search</button>
               </div>
-            
-            
-          </div>
-                    </div>
-          );
+               </div>
+              </div>
+              </div>
+             </div>
+           );
 };
 
 export default Banner;

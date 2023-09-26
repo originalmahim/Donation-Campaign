@@ -1,11 +1,13 @@
 import  { createContext, useContext, useState } from 'react';
 import { useLoaderData, useParams } from "react-router-dom";
 import Swal from 'sweetalert2';
+import PropTypes from 'prop-types';
 import { saveDonations } from "../Localstorage/Localstorage";
 
 const DonationContext = createContext();
 
 export function DonationProvider({ children }) {
+  const totaldonation = 3250 ;
   const [donation, setDonation] = useState(0);
 
   const updateDonation = (amount) => {
@@ -13,7 +15,7 @@ export function DonationProvider({ children }) {
   };
 
   return (
-    <DonationContext.Provider value={{ donation, updateDonation }}>
+    <DonationContext.Provider value={{ donation, totaldonation , updateDonation }}>
       {children}
     </DonationContext.Provider>
   );
@@ -25,7 +27,7 @@ export function useDonation() {
 
 
 const DonationDetails = () => {
-  const { donation, updateDonation } = useDonation();
+  const {  updateDonation } = useDonation();
   const data = useLoaderData();
   const { id } = useParams();
   const idint = JSON.parse(id);
@@ -60,6 +62,8 @@ const DonationDetails = () => {
           </div>
   );
 };
-
+DonationProvider.propTypes = {
+  children: PropTypes.number.isRequired
+}
 
 export default DonationDetails;
