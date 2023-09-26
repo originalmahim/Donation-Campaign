@@ -8,7 +8,7 @@
     "button_bg_color": "#0052FF33",
     "description": "The Healthy Start Kit is a comprehensive package designed to provide essential health supplies to those in need and make a positive impact on their well-being. This kit includes a variety of items, such as vitamins, first aid supplies, personal hygiene products, and health education materials. By contributing to this initiative, you play a crucial role in ensuring that everyone in our community has access to the tools and knowledge they need to lead healthier lives and prevent illness. Your support helps us create a healthier and more resilient community for all.",
     "price": 200,
-    "picture_url": "https://i.ibb.co/5KPXg0m/Health.png"
+    "picture_url": "https://i0.wp.com/www.directrelief.org/wp-content/uploads/2021/09/https___bucketeer-e05bbc84-baa3-437e-9518-adb32be77984.s3.amazonaws.com_public_images_a0c1fdc4-1876-47e0-8536-ae1bbdded481_1200x675.jpeg?fit=1115%2C627&ssl=1"
   },
   {
     "id": 2,
@@ -19,7 +19,7 @@
     "button_bg_color": "#F8714733",
     "description": "Our Educational Scholarships program is committed to breaking down barriers to education for underprivileged students. By providing scholarships, we empower these students to access quality education, pursue their dreams, and create a brighter future. Your generous contribution has a lasting impact on the lives of young minds, as it enables them to overcome financial obstacles and reach their full potential. Together, we can shape a more educated and prosperous community.",
     "price": 150,
-    "picture_url": "https://i.ibb.co/4tKcrQY/educatinalcover.jpg"
+    "picture_url": "https://cdn.britannica.com/80/203480-131-ACDB8EC0/Young-student-writing-in-notebook-in-school.jpg"
   },
   {
     "id": 3,
@@ -41,7 +41,7 @@
     "button_bg_color": "#FF444A33",
     "description": "Winter can be harsh, especially for those without warm clothing. Our Warm Clothing Drive aims to provide comfort and protection to vulnerable individuals during the cold months. We collect and distribute warm clothing items such as coats, gloves, scarves, and blankets. Your support ensures that everyone in our community can face winter with dignity and warmth. Join us in spreading the love and warmth to those in need.",
     "price": 230,
-    "picture_url": "https://i.ibb.co/jzhdbxB/Clothing.png"
+    "picture_url": "https://sp-ao.shortpixel.ai/client/q_glossy,ret_img/http://www.sabrihelpage.org/wp-content/uploads/2020/01/cloth_distribution90-1.jpg"
   },
   {
     "id": 5,
@@ -52,7 +52,7 @@
     "button_bg_color": "#79C23F33",
     "description": "Access to fresh and nutritious food is a basic human right. Our Fresh Food for Families initiative partners with local food banks to ensure struggling families have access to high-quality, healthy food options. Your contribution makes it possible for families to put nutritious meals on their tables, improving their overall health and well-being. Together, we can eliminate food insecurity and build a healthier community for all.",
     "price": 235,
-    "picture_url": "https://i.ibb.co/9w0KqBJ/Food.png"
+    "picture_url": "https://www.epa.gov/sites/default/files/styles/medium/public/2015-11/manpic.jpg?itok=YnvEqbSe"
   },
   {
     "id": 6,
@@ -63,7 +63,7 @@
     "button_bg_color": "#0052FF33",
     "description": "Good health starts with knowledge and habits. Our Healthy Habits Workshops empower individuals to make informed choices about their well-being. Participants gain valuable skills, from nutrition and exercise to stress management and mental health. Your support helps us create a positive and supportive learning environment for our community, allowing individuals to lead healthier, more fulfilling lives. Join us in building a healthier future together.",
     "price": 315,
-    "picture_url": "https://i.ibb.co/5KPXg0m/Health.png"
+    "picture_url": "https://grtuk.org/wp-content/uploads/2019/07/Zakat-donation-pakistan.jpg"
   },
   {
     "id": 7,
@@ -107,7 +107,7 @@
     "button_bg_color": "#FF444A33",
     "description": "Winter can be a challenging season for many, especially those without adequate warmth. Our Winter Warmth Drive collects and distributes warm clothing items and blankets to help people stay warm and comfortable during the cold months. Your contributions provide essential warmth and comfort to those in need, ensuring they can face winter with resilience and dignity. Join us in spreading warmth and kindness to our community.",
     "price": 130,
-    "picture_url": "https://i.ibb.co/jzhdbxB/Clothing.png"
+    "picture_url": "https://imgmedia.lbb.in/media/2019/11/5ddd09c236294a4669728c8f_1574767042852.jpg"
   },
   {
     "id": 11,
@@ -118,7 +118,7 @@
     "button_bg_color": "#F8714733",
     "description": "Our STEM Education Grants program aims to fund grants for STEM (Science, Technology, Engineering, and Mathematics) education programs in schools. By supporting this initiative, you help provide students with access to innovative and enriching educational opportunities that prepare them for the future. Together, we can inspire the next generation of scientists, engineers, and innovators, paving the way for a brighter and more technologically advanced future.",
     "price": 360,
-    "picture_url": "https://i.ibb.co/4tKcrQY/educatinalcover.jpg"
+    "picture_url": "https://images.theconversation.com/files/419625/original/file-20210906-15-13wbaxc.jpg?ixlib=rb-1.1.0&q=45&auto=format&w=926&fit=clip"
   },
   {
     "id": 12,
@@ -129,6 +129,6 @@
     "button_bg_color": "#0052FF33",
     "description": "Proper nutrition is essential for individuals battling illness. Our Healthy Meals Initiative supports programs that provide healthy, balanced meals to those in need. Your contributions ensure that individuals facing health challenges receive the nourishment they require for recovery and healing. Join us in promoting health and well-being through nutritious meals, making a significant impact on the lives of those in need.",
     "price": 420,
-    "picture_url": "https://i.ibb.co/5KPXg0m/Health.png"
+    "picture_url": "https://www.peoplesfundraising.com/image/1019ec13-ff0b-4698-9c94-e1ee8e004723"
   }
 ]
