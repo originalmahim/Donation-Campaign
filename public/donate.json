@@ -7,7 +7,7 @@
     "text_color": "#0052FF",
     "button_bg_color": "#0052FF33",
     "description": "The Healthy Start Kit is a comprehensive package designed to provide essential health supplies to those in need and make a positive impact on their well-being. This kit includes a variety of items, such as vitamins, first aid supplies, personal hygiene products, and health education materials. By contributing to this initiative, you play a crucial role in ensuring that everyone in our community has access to the tools and knowledge they need to lead healthier lives and prevent illness. Your support helps us create a healthier and more resilient community for all.",
-    "price": 20,
+    "price": 200,
     "picture_url": "https://i.ibb.co/5KPXg0m/Health.png"
   },
   {
@@ -18,7 +18,7 @@
     "text_color": "#F87147",
     "button_bg_color": "#F8714733",
     "description": "Our Educational Scholarships program is committed to breaking down barriers to education for underprivileged students. By providing scholarships, we empower these students to access quality education, pursue their dreams, and create a brighter future. Your generous contribution has a lasting impact on the lives of young minds, as it enables them to overcome financial obstacles and reach their full potential. Together, we can shape a more educated and prosperous community.",
-    "price": 50,
+    "price": 150,
     "picture_url": "https://i.ibb.co/4tKcrQY/educatinalcover.jpg"
   },
   {
@@ -29,7 +29,7 @@
     "text_color": "#79C23F",
     "button_bg_color": "#79C23F33",
     "description": "Hunger is a pressing issue in our community, and our Nutritious Meal Program is dedicated to combating it. We provide not only food but also hope to families facing food insecurity. This program ensures that no one goes to bed hungry by delivering nutritious meals to their doorstep. By supporting this initiative, you contribute to the well-being of our neighbors and help create a community where everyone has access to nourishing food. Join us in the fight against hunger and make a difference today.",
-    "price": 30,
+    "price": 170,
     "picture_url": "https://i.ibb.co/9w0KqBJ/Food.png"
   },
   {
@@ -40,7 +40,7 @@
     "text_color": "#FF444A",
     "button_bg_color": "#FF444A33",
     "description": "Winter can be harsh, especially for those without warm clothing. Our Warm Clothing Drive aims to provide comfort and protection to vulnerable individuals during the cold months. We collect and distribute warm clothing items such as coats, gloves, scarves, and blankets. Your support ensures that everyone in our community can face winter with dignity and warmth. Join us in spreading the love and warmth to those in need.",
-    "price": 25,
+    "price": 230,
     "picture_url": "https://i.ibb.co/jzhdbxB/Clothing.png"
   },
   {
@@ -51,7 +51,7 @@
     "text_color": "#79C23F",
     "button_bg_color": "#79C23F33",
     "description": "Access to fresh and nutritious food is a basic human right. Our Fresh Food for Families initiative partners with local food banks to ensure struggling families have access to high-quality, healthy food options. Your contribution makes it possible for families to put nutritious meals on their tables, improving their overall health and well-being. Together, we can eliminate food insecurity and build a healthier community for all.",
-    "price": 35,
+    "price": 235,
     "picture_url": "https://i.ibb.co/9w0KqBJ/Food.png"
   },
   {
@@ -62,7 +62,7 @@
     "text_color": "#0052FF",
     "button_bg_color": "#0052FF33",
     "description": "Good health starts with knowledge and habits. Our Healthy Habits Workshops empower individuals to make informed choices about their well-being. Participants gain valuable skills, from nutrition and exercise to stress management and mental health. Your support helps us create a positive and supportive learning environment for our community, allowing individuals to lead healthier, more fulfilling lives. Join us in building a healthier future together.",
-    "price": 15,
+    "price": 315,
     "picture_url": "https://i.ibb.co/5KPXg0m/Health.png"
   },
   {
@@ -73,7 +73,7 @@
     "text_color": "#FF444A",
     "button_bg_color": "#FF444A33",
     "description": "Winter can be a challenging time for those without adequate clothing. Our Winter Wardrobe Drive collects and distributes warm clothing items, such as coats, gloves, scarves, and blankets, to help people stay warm and protected during the cold season. Your contributions ensure that everyone in our community can face winter with resilience and comfort. Join us in spreading warmth and kindness to those in need.",
-    "price": 30,
+    "price": 230,
     "picture_url": "https://i.ibb.co/jzhdbxB/Clothing.png"
   },
   {
@@ -84,7 +84,7 @@
     "text_color": "#F87147",
     "button_bg_color": "#F8714733",
     "description": "Access to quality education is a cornerstone of a prosperous society. Our Digital Learning Resources program seeks to ensure that all individuals, regardless of their background, have equal access to a good education. We advocate for government investments in public schools, financial assistance for students, and teacher support to create a supportive learning environment. Your support plays a crucial role in advancing educational equity and empowering future generations.",
-    "price": 40,
+    "price": 340,
     "picture_url": "https://i.ibb.co/4tKcrQY/educatinalcover.jpg"
   },
   {
@@ -95,7 +95,7 @@
     "text_color": "#79C23F",
     "button_bg_color": "#79C23F33",
     "description": "In times of crisis, access to food becomes even more critical. Our Emergency Food Relief program provides immediate food assistance to individuals and families facing food crises. Your support ensures that no one goes hungry during challenging times. Together, we can offer a helping hand and nourishment to those in need, providing them with the strength to overcome adversity.",
-    "price": 25,
+    "price": 425,
     "picture_url": "https://i.ibb.co/9w0KqBJ/Food.png"
   },
   {
@@ -106,7 +106,7 @@
     "text_color": "#FF444A",
     "button_bg_color": "#FF444A33",
     "description": "Winter can be a challenging season for many, especially those without adequate warmth. Our Winter Warmth Drive collects and distributes warm clothing items and blankets to help people stay warm and comfortable during the cold months. Your contributions provide essential warmth and comfort to those in need, ensuring they can face winter with resilience and dignity. Join us in spreading warmth and kindness to our community.",
-    "price": 30,
+    "price": 130,
     "picture_url": "https://i.ibb.co/jzhdbxB/Clothing.png"
   },
   {
@@ -117,7 +117,7 @@
     "text_color": "#F87147",
     "button_bg_color": "#F8714733",
     "description": "Our STEM Education Grants program aims to fund grants for STEM (Science, Technology, Engineering, and Mathematics) education programs in schools. By supporting this initiative, you help provide students with access to innovative and enriching educational opportunities that prepare them for the future. Together, we can inspire the next generation of scientists, engineers, and innovators, paving the way for a brighter and more technologically advanced future.",
-    "price": 60,
+    "price": 360,
     "picture_url": "https://i.ibb.co/4tKcrQY/educatinalcover.jpg"
   },
   {
@@ -128,7 +128,7 @@
     "text_color": "#0052FF",
     "button_bg_color": "#0052FF33",
     "description": "Proper nutrition is essential for individuals battling illness. Our Healthy Meals Initiative supports programs that provide healthy, balanced meals to those in need. Your contributions ensure that individuals facing health challenges receive the nourishment they require for recovery and healing. Join us in promoting health and well-being through nutritious meals, making a significant impact on the lives of those in need.",
-    "price": 20,
+    "price": 420,
     "picture_url": "https://i.ibb.co/5KPXg0m/Health.png"
   }
 ]

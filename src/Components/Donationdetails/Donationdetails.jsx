@@ -1,24 +1,48 @@
+import  { createContext, useContext, useState } from 'react';
 import { useLoaderData, useParams } from "react-router-dom";
-import Swal from 'sweetalert2'
+import Swal from 'sweetalert2';
 import { saveDonations } from "../Localstorage/Localstorage";
 
-const Donationdetails = () => {
-          const data = useLoaderData();
-          const {id} = useParams();
-          const idint = JSON.parse(id)
-         const donate = data.find(donate => donate.id == idint)
+const DonationContext = createContext();
 
-          const handleDonate = () => {
-            saveDonations(idint);
-           Swal.fire({
-                    icon: 'success',
-                    title: 'Donation Recived',
-                    text: 'Thank You For Donating',
-                  })
-          }
+export function DonationProvider({ children }) {
+  const [donation, setDonation] = useState(0);
 
-          return (
-          <div className="max-w-7xl mx-auto my-24">
+  const updateDonation = (amount) => {
+    setDonation(donation + amount);
+  };
+
+  return (
+    <DonationContext.Provider value={{ donation, updateDonation }}>
+      {children}
+    </DonationContext.Provider>
+  );
+}
+
+export function useDonation() {
+  return useContext(DonationContext);
+}
+
+
+const DonationDetails = () => {
+  const { donation, updateDonation } = useDonation();
+  const data = useLoaderData();
+  const { id } = useParams();
+  const idint = JSON.parse(id);
+  const donate = data.find(d => d.id === idint);
+
+  const handleDonate = () => {
+    saveDonations(idint);
+    updateDonation(donate.price);
+    Swal.fire({
+      icon: 'success',
+      title: 'Donation Received',
+      text: 'Thank You For Donating',
+    });
+  }
+
+  return (
+    <div className="max-w-7xl mx-auto my-24">
           <div >
           <div className="max-w-7xl mx-auto lg:h-[70vh] md:h-[30vh] h-[30vh] border-none rounded-md mb-5 px-6 bg-no-repeat bg-right" style={{ backgroundImage: `url(${donate.picture_url})`, backgroundSize: 'cover', position: 'relative' }}>
           <div className="w-full" >
@@ -34,7 +58,8 @@ const Donationdetails = () => {
           <p className="text-xl">{donate.description}</p>
           </div>                  
           </div>
-          );
+  );
 };
 
-export default Donationdetails;
+
+export default DonationDetails;

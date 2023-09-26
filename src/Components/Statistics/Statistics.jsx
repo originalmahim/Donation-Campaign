@@ -1,5 +1,6 @@
-import { useState } from 'react';
+
 import { PieChart, Pie, Cell, ResponsiveContainer, Legend } from 'recharts';
+import { useDonation } from '../Donationdetails/Donationdetails'; 
 
 const COLORS = ['#0088FE', '#FFBB28'];
 
@@ -16,44 +17,37 @@ const renderCustomizedLabel = ({ cx, cy, midAngle, innerRadius, outerRadius, per
   );
 };
 
-const Statistics = () => {
-  const [donated, setDonated] = useState(0);
+      const Statistics = () => {
+      const { donation } = useDonation(); 
 
-  const data = [
-    { name: 'Total Donation', value: 200 },
-    { name: 'Your Donation', value: donated }
-  ];
+      const data = [
+       { name: 'Total Donation', value: 3250  }, 
+       { name: 'Your Donation', value: donation }
+         ];
 
-  const handleAdd = () => {  
-    setDonated(donated + 200);
-  };
-
-  return (
-    <div>
+      return (
+      <div>
       <ResponsiveContainer width="100%" height={400}>
-        <PieChart>
-          <Pie
-            data={data}
-            cx="50%"
-            cy="50%"
-            labelLine={false}
-            label={renderCustomizedLabel}
-            outerRadius={80}
-            fill="#8884d8"
-            dataKey="value"
-          >
-            {data.map((entry, index) => (
-              <Cell key={`cell-${index}`} fill={COLORS[index % COLORS.length]} />
-            ))}
-          </Pie>
-          <Legend verticalAlign="bottom" height={36} />
-        </PieChart>
+      <PieChart>
+      <Pie
+      data={data}
+      cx="50%"
+      cy="50%"
+      labelLine={false}
+      label={renderCustomizedLabel}
+      outerRadius={80}
+      fill="#8884d8"
+      dataKey="value"
+      >
+      {data.map((entry, index) => (
+      <Cell key={`cell-${index}`} fill={COLORS[index % COLORS.length]} />
+      ))}
+      </Pie>
+      <Legend verticalAlign="bottom" height={36} />
+      </PieChart>
       </ResponsiveContainer>
-      <div className='text-center'>
-        <button onClick={handleAdd} className='btn btn-primary'>Add 200</button>
       </div>
-    </div>
-  );
-};
+            );
+            };
 
 export default Statistics;

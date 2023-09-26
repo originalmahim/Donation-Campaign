@@ -1,5 +1,6 @@
 import { Link } from "react-router-dom";
 import PropTypes from 'prop-types';
+  
   const Donate = ({ donate }) => {
   const { id, picture_url, category, title, button_bg_color, card_bg_color, text_color } = donate;
 
@@ -10,7 +11,7 @@ import PropTypes from 'prop-types';
         </div>
         <div className={`text-color py-4 pl-4`}>
         <button className= "p-1 rounded-md " style={{background: button_bg_color}} >{category}</button>
-        <h1 className= "">{title}</h1>
+        <h1 className= "text-xl font-medium">{title}</h1>
         </div>
         </Link>
           );

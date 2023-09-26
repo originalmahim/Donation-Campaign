@@ -1,7 +1,7 @@
-const getDonation = () =>{
+    const getDonation = () =>{
           const storedDonations = localStorage.getItem('Donations');
           if(storedDonations){
-              return JSON.parse(storedDonations);
+          return JSON.parse(storedDonations);
           }
           return [];
       }
@@ -11,8 +11,8 @@ const getDonation = () =>{
           const storedDonation = getDonation();
           const exists = storedDonation.find(jobId => jobId === id);
           if(!exists){
-            storedDonation.push(id);
-              localStorage.setItem( 'Donations' , JSON.stringify(storedDonation))
+          storedDonation.push(id);
+          localStorage.setItem( 'Donations' , JSON.stringify(storedDonation))
           }
       }
       
