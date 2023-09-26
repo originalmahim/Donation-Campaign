@@ -3,14 +3,15 @@ import { Link } from "react-router-dom";
 
 const Errorinfos = () => {
           return (
-          <div>
-          <div className="max-w-7xl mx-auto">
-          <div className="lg:ml-48" >
-          <img src="https://img.freepik.com/free-vector/oops-404-error-with-broken-robot-concept-illustration_114360-1932.jpg?w=826&t=st=1695740375~exp=1695740975~hmac=a563ac25ee55b703a52717b028d5b5b7f40b664ac8f5b7cfcd6d246a8c095377" />
+          <div className="px-4 md:px-8 ">
+          <div className="max-w-7xl mx-auto bg-base-200 rounded-lg">
+          <div className="mt-32 mb-8 flex items-center justify-center  bg-base-200 " >
+          
+          <img src="https://i.ibb.co/ZKjRtXs/error-gif.gif" />
           </div>
-          <div className="text-center">
+          <div className="text-center ">
           <Link to = "/">
-          <button className="btn btn-primary">Go Back</button>
+          <button className="btn btn-primary mb-5">Go Back</button>
           </Link>
           
           </div>
