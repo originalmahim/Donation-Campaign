@@ -1,12 +1,18 @@
 import { useEffect, useState } from "react";
-import { useLoaderData } from "react-router-dom";
 import Donatedlist from "./Donatedlist";
 import { getDonation } from "../Localstorage/Localstorage";
 
 
 const Donationlish = () => {
           const [donation, setDonation] = useState([]);
-          const donate = useLoaderData();
+          const [donate,setDonate] = useState([])
+
+          useEffect(() => {
+
+            fetch('./donate.json')
+              .then(res => res.json())
+              .then(data => setDonate(data));
+          }, []);
           
           const [show, setShow] = useState(4);
 
