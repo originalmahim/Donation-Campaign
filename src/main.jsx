@@ -21,17 +21,16 @@ const router = createBrowserRouter([
       {
         path: '/donation/:id',
         element: <Donationdetails></Donationdetails>,
-        loader: () => fetch('../public/donate.json'),
+        loader: () => fetch('donate.json'),
       },
       {
         path: '/donations',
         element: <Donationlish></Donationlish>,
-        loader: () => fetch('../public/donate.json'),
+        loader: () => fetch('donate.json'),
       },
       {
         path: '/statistics',
         element: <Statistics></Statistics>,
-        loader: () => fetch('../public/donate.json'),
       },
     ],
   },
@@ -39,7 +38,7 @@ const router = createBrowserRouter([
 
 ReactDOM.createRoot(document.getElementById('root')).render(
   <React.StrictMode>
-    <DonationProvider> {/* Wrap your entire application with DonationProvider */}
+    <DonationProvider> 
       <RouterProvider router={router}></RouterProvider>
     </DonationProvider>
   </React.StrictMode>

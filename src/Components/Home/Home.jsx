@@ -1,31 +1,38 @@
-import { useEffect, useState } from "react";
-
-import '../Donate/Donate'
+import  { useEffect, useState } from "react";
 import Donate from "../Donate/Donate";
 import Banner from "../Banner/Banner";
+
 const Home = () => {
+  const [donateData, setDonateData] = useState([]);
+  const [filteredData, setFilteredData] = useState([]);
 
-          const [donate, setDonate] = useState([])
+  useEffect(() => {
 
-          useEffect(() => {
-          fetch('donate.json')
-          .then(res => res.json())
-          .then(donate => setDonate(donate))
-          },[])
+    fetch('./donate.json')
+      .then(res => res.json())
+      .then(data => setDonateData(data));
+  }, []);
 
-          return (
+  const handleFilterData = (filteredData) => {
+    setFilteredData(filteredData);
+  };
+
+  return (
           <div>
-          <Banner></Banner>
+          <Banner data={donateData} onFilterData={handleFilterData} />
           <div className="max-w-7xl mx-auto px-2 my-14">
           <div className="grid lg:grid-cols-4 md:grid-cols-2 grid-cols-1 gap-4">
-          {
-           donate.map(donate => <Donate key={donate.id} donate = {donate}></Donate>)
-          }
-          </div>   
+          {filteredData.length > 0
+          ? filteredData.map(donate => (
+          <Donate key={donate.id} donate={donate} />
+          ))
+          : donateData.map(donate => (
+          <Donate key={donate.id} donate={donate} />
+          ))}
           </div>
-                         
           </div>
-          );
+          </div>
+  );
 };
 
 export default Home;

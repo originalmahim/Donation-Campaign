@@ -22,7 +22,7 @@ const renderCustomizedLabel = ({ cx, cy, midAngle, innerRadius, outerRadius, per
 
       const data = [
        { name: 'Total Donation', value: totaldonation  }, 
-       { name: 'Your Donation', value: donation }
+       { name: 'Your Donation', value:  donation }
          ];
 
       return (
